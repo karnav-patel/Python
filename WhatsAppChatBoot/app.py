@@ -9,8 +9,8 @@ input('Enter anything after scanning QR code')
 
 def job():
     print("I'm working...")
-    name = "Palak"
-    msg = "Hi Palak jadi, pagal, magaj vagarni!!!!!!!!!!"
+    name = "Name/group"
+    msg = "Message"
     count = 1
     user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
     user.click()
